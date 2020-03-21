@@ -138,7 +138,7 @@ T fautocorrelation (T arr1[] ,T arr2[],Y size,Y size1,Y delaytime){
 
 
 /*this function implemented from  https://www.tutorialspoint.com/cplusplus-program-to-compute-dft-coefficients-directly
- */
+arr1[t] can be change another function arr1[t] equal to f(x)=x */
 template <class T,class Y>
 T Dft(T arr1[] ,int size,Y maxvalue){
    cout << "uzunluk"<< size;
