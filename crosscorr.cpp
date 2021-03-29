@@ -1,3 +1,7 @@
+/* autocorrelation for audio signals */
+
+
+/* libraries */
 #include <iostream>
 #include <math.h> 
 #include <cmath>
@@ -159,7 +163,8 @@ T Dft(T arr1[] ,int size,Y maxvalue){
 
 
 
-/* this function implemented from https://rosettacode.org/wiki/Fast_Fourier_transform#C.2B.2B */
+/* this function implemented from https://rosettacode.org/wiki/Fast_Fourier_transform#C.2B.2B
+its help to transformation audio to signal */
 void fft(CArray& x)
 {
     const size_t N = x.size();
@@ -189,7 +194,7 @@ void fft(CArray& x)
 
 int main() 
 { 
-   /* örnek verisetleri */
+   /* example datasets (you can put audios )*/
    int  a[] = {1, 2, 3, 4, 5, 6,7,8,99}; 
    float  b[] = {1, 2, 3, 4,3, 5, 6,7,8,99}; 
    int len = sizeof(a)/sizeof(a[0]);
